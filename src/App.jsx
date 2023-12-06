@@ -18,7 +18,7 @@ function App() {
   const [selectedRows, setSelectedRows] = useState([]);
   const [searchTerms, setSearchTerms] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
-  const [editedUser, setEditedUser] = useState(null); // Added state for edited user
+  const [editedUser, setEditedUser] = useState(null); 
   const usersPerPage = 10;
 
   useEffect(() => {
@@ -94,7 +94,7 @@ function App() {
 
   const saveChanges = (id) => {
     setEditedUser(null);
-    // Additional logic to save changes to backend or perform any additional action if needed
+    
   };
 
   return (
